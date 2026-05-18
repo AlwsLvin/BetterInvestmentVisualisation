@@ -1,0 +1,29 @@
+.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.tmp/
+server/.cache/
+
+# Environments and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# Frontend dependencies and build output
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo
+web/vite.config.js
+web/vite.config.d.ts
+
+# Local editor files
+.idea/
+.vscode/
